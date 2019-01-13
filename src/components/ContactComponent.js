@@ -137,7 +137,7 @@ class Contact extends Component {
                                            placeholder="First Name"
                                            value={this.state.firstname}
                                            valid={errors.firstname === ''}
-                                           invalid={errors.firsttname !== ''}
+                                           invalid={errors.firstname !== ''}
                                            onChange={this.handleInputChange}
                                            onBlur={this.handleBlur('firstname')}/>
                                     <FormFeedback>{errors.firstname}</FormFeedback>
